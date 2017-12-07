@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Carlsberg Sans';
+    src: url('../fonts/CarlsbergSans-LightItalic.eot');
+    src: url('../fonts/CarlsbergSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/CarlsbergSans-LightItalic.woff') format('woff'),
+        url('../fonts/CarlsbergSans-LightItalic.ttf') format('truetype'),
+        url('../fonts/CarlsbergSans-LightItalic.svg#CarlsbergSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+p{font-family: 'Carlsberg Sans';}
    
 .hide{ display: none !important;}   
    
@@ -25,8 +37,8 @@
 
 
 #pie{height: 148px; background: #102d23;}
-
-
+#pie img{ margin: 0 auto; display: block; top: 20px; position: relative;}
+#pie p{text-align: center; font-size: 6px; padding: 0 20px; color: #fff; line-height: 150%; position: relative; top: 30px;}
 #col-right{float:right;height: 1891px; width: 320px; background: url(../img/bg_right.jpg) no-repeat; position: relative; overflow: hidden;}
 #comprar{display: block; height: 271px; width: 320px; overflow: hidden;  background: url(../img/bg_comprar.png) no-repeat;top: 630px; position: absolute; }
 #comprar img.txt{position: absolute; right: 35px; top: 60px;}
