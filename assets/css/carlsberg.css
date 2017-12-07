@@ -1,0 +1,33 @@
+   
+.hide{ display: none !important;}   
+   
+#col-left{float: left; height: 1891px;  width: 640px; background: url(../img/bg_left.jpg) no-repeat;}
+#banner-top{height: 391px; }
+#recetas{height: 1352px;  overflow: hidden; position: relative;}
+#recetas p{color: #fff;position: absolute;}
+#recetas img{position: absolute;}
+#receta1{}
+#receta1 img.tit{ top: 40px; left: 90px; }
+#receta1 img.foto{right: 30px; top: 120px;}
+#receta1 p{ width: 210px; left: 80px; top: 140px; font-size: 10px; transform: rotate(1deg);}
+#receta2 img.tit{ top: 440px; right: 50px; }
+#receta2 img.foto{right: 290px; top: 500px;}
+#receta2 p{ width: 210px; right: 60px; top: 508px; font-size: 10px; transform: rotate(-3deg);}
+#receta3 img.tit{ top: 910px; left: 680px; }
+#receta3 img.foto{right: 90px; top: 950px;}
+#receta3 p{ width: 210px; left: 40px; top: 815px; font-size: 10px; transform: rotate(1deg);}
+#receta4 img.tit{ top: 1610px; left: 1240px; }
+#receta4 img.foto{right: 150px; top: 1260px;}
+#receta4 p{ width: 210px; left: 290px; top: 1230px; font-size: 10px; transform: rotate(-1deg);}
+#botella1{position: absolute; top: 300px; left: 0;}
+#botella2{position: absolute; bottom: -250px; right: 20px;}
+
+
+
+#pie{height: 148px; background: #102d23;}
+
+
+#col-right{float:right;height: 1891px; width: 320px; background: url(../img/bg_right.jpg) no-repeat; position: relative; overflow: hidden;}
+#comprar{display: block; height: 271px; width: 320px; overflow: hidden;  background: url(../img/bg_comprar.png) no-repeat;top: 630px; position: absolute; }
+#comprar img.txt{position: absolute; right: 35px; top: 60px;}
+#comprar img.logos{position: absolute; right: 35px; bottom: 60px;}
